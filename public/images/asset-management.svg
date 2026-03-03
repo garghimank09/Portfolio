@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d9488"/>
+      <stop offset="100%" style="stop-color:#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <!-- Sidebar -->
+  <rect x="0" y="0" width="180" height="600" fill="rgba(15,23,42,0.9)"/>
+  <rect x="20" y="100" width="140" height="36" rx="6" fill="rgba(13,148,136,0.4)"/>
+  <rect x="20" y="150" width="140" height="28" rx="4" fill="rgba(148,163,184,0.15)"/>
+  <rect x="20" y="190" width="140" height="28" rx="4" fill="rgba(148,163,184,0.15)"/>
+  <rect x="20" y="230" width="140" height="28" rx="4" fill="rgba(148,163,184,0.15)"/>
+  <circle cx="90" cy="50" r="16" fill="url(#card)"/>
+  <!-- Main content -->
+  <rect x="200" y="40" width="580" height="48" rx="8" fill="rgba(13,148,136,0.2)" stroke="rgba(13,148,136,0.4)" stroke-width="1"/>
+  <text x="490" y="72" text-anchor="middle" fill="#5eead4" font-size="20" font-weight="600" font-family="system-ui,sans-serif">Asset Management</text>
+  <!-- Stats row -->
+  <rect x="200" y="110" width="170" height="90" rx="10" fill="rgba(13,148,136,0.25)" stroke="rgba(13,148,136,0.5)" stroke-width="1"/>
+  <text x="285" y="155" text-anchor="middle" fill="#99f6e4" font-size="28" font-weight="700" font-family="system-ui,sans-serif">248</text>
+  <text x="285" y="180" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Total Assets</text>
+  <rect x="390" y="110" width="170" height="90" rx="10" fill="rgba(13,148,136,0.25)" stroke="rgba(13,148,136,0.5)" stroke-width="1"/>
+  <text x="475" y="155" text-anchor="middle" fill="#99f6e4" font-size="28" font-weight="700" font-family="system-ui,sans-serif">186</text>
+  <text x="475" y="180" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Allocated</text>
+  <rect x="580" y="110" width="200" height="90" rx="10" fill="rgba(13,148,136,0.25)" stroke="rgba(13,148,136,0.5)" stroke-width="1"/>
+  <text x="680" y="155" text-anchor="middle" fill="#99f6e4" font-size="28" font-weight="700" font-family="system-ui,sans-serif">62</text>
+  <text x="680" y="180" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Available</text>
+  <!-- Chart area -->
+  <rect x="200" y="220" width="580" height="200" rx="10" fill="rgba(30,41,59,0.6)" stroke="rgba(13,148,136,0.3)" stroke-width="1"/>
+  <rect x="230" y="350" width="60" height="50" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="310" y="300" width="60" height="100" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="390" y="260" width="60" height="140" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="470" y="280" width="60" height="120" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="550" y="320" width="60" height="80" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="630" y="290" width="60" height="110" rx="4" fill="url(#card)" opacity="0.9"/>
+  <rect x="710" y="340" width="60" height="60" rx="4" fill="url(#card)" opacity="0.9"/>
+  <text x="490" y="400" text-anchor="middle" fill="#64748b" font-size="14" font-family="system-ui,sans-serif">Asset Distribution</text>
+  <!-- Asset list -->
+  <rect x="200" y="440" width="580" height="140" rx="10" fill="rgba(30,41,59,0.6)" stroke="rgba(13,148,136,0.3)" stroke-width="1"/>
+  <line x1="200" y1="480" x2="780" y2="480" stroke="rgba(13,148,136,0.2)" stroke-width="1"/>
+  <line x1="200" y1="520" x2="780" y2="520" stroke="rgba(13,148,136,0.2)" stroke-width="1"/>
+  <text x="250" y="465" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Asset ID</text>
+  <text x="400" y="465" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Category</text>
+  <text x="550" y="465" fill="#94a3b8" font-size="12" font-family="system-ui,sans-serif">Status</text>
+  <text x="250" y="505" fill="#cbd5e1" font-size="11" font-family="system-ui,sans-serif">AST-001</text>
+  <text x="400" y="505" fill="#cbd5e1" font-size="11" font-family="system-ui,sans-serif">Laptop</text>
+  <text x="550" y="505" fill="#5eead4" font-size="11" font-family="system-ui,sans-serif">Allocated</text>
+  <text x="250" y="545" fill="#cbd5e1" font-size="11" font-family="system-ui,sans-serif">AST-002</text>
+  <text x="400" y="545" fill="#cbd5e1" font-size="11" font-family="system-ui,sans-serif">Monitor</text>
+  <text x="550" y="545" fill="#5eead4" font-size="11" font-family="system-ui,sans-serif">Available</text>
+</svg>

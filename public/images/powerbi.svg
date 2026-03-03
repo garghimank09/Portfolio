@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Power BI">
+  <!-- Left bar - shortest, light yellow -->
+  <rect x="3" y="14" width="4" height="7" rx="2" fill="#FFE066"/>
+  <!-- Middle bar - medium height, golden yellow -->
+  <rect x="10" y="8" width="4" height="13" rx="2" fill="#F2C811"/>
+  <!-- Right bar - tallest, orange-brown -->
+  <rect x="17" y="2" width="4" height="19" rx="2" fill="#D4A017"/>
+</svg>
